@@ -36,7 +36,7 @@
                     <EditItemTemplate>
                         <b>Price:</b>
                         <%# Eval("price") %>
-                        <br />
+                        <br /> 
                         <br />
                         <b>Quantity</b>
                         <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("quantity") %>'></asp:TextBox>
